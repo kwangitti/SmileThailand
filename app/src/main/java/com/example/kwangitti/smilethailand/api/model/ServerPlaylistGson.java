@@ -10,6 +10,8 @@ import java.util.List;
  */
 public class ServerPlaylistGson {
 
+
+
     @SerializedName("thumbnail_photo")//must be same key as json api from server
     private String thumnailPhoto;
 

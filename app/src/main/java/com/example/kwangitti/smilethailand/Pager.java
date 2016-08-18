@@ -4,6 +4,8 @@ import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
+import com.example.kwangitti.smilethailand.ui.playlist.ProgramListFragment;
+
 /**
  * Created by kwangitti on 8/15/16 AD.
  */
@@ -26,8 +28,7 @@ public class Pager extends FragmentStatePagerAdapter {
                 NewsFragment tab2 = new NewsFragment();
                 return tab2;
             case 2:
-                PlaylistFragment tab3 = new PlaylistFragment();
-                return tab3;
+                return ProgramListFragment.newInstance();
             case 3:
                 AboutUsFragment tab4 = new AboutUsFragment();
                 return tab4;

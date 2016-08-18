@@ -1,5 +1,7 @@
 package com.example.kwangitti.smilethailand.api.model;
 
+import java.util.List;
+
 import retrofit2.Call;
 import retrofit2.http.Body;
 import retrofit2.http.GET;
@@ -13,6 +15,6 @@ public interface TimeService {
     @GET("backoffice/api/getservertime")
     Call<ServerTimeGson> getServerTime();
 
-    @GET("backoffice/api/talkprogram")
-    Call<ServerPlaylistGson> getThumnailPhoto();
+    @POST("backoffice/api/talkprogram")
+    Call<ProgramGson> getTalkProgram();
 }

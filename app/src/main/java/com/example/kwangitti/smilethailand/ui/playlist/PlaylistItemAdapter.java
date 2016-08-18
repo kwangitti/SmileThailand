@@ -1,4 +1,4 @@
-package com.example.kwangitti.smilethailand;
+package com.example.kwangitti.smilethailand.ui.playlist;
 
 import android.content.Context;
 import android.content.Intent;
@@ -9,6 +9,9 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.SeekBar;
 import android.widget.TextView;
+
+import com.example.kwangitti.smilethailand.PlaylistService;
+import com.example.kwangitti.smilethailand.R;
 
 /**
  * Created by kwangitti on 8/16/16 AD.
