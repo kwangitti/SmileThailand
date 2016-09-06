@@ -126,7 +126,11 @@ public class ProgramGson {
         }
 
         public String getThumbnailPhoto() {
-            return thumbnailPhoto;
+            if (thumbnailPhoto == null){
+                return null;
+            } else {
+                return "http://105smilethailand.com/backoffice/" + thumbnailPhoto;
+            }
         }
     }
 }
